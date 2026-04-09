@@ -1,21 +1,23 @@
+SET search_path TO snowflake;
+
 #DRILL DOWN
 -- Year-level
 SELECT
-  YEAR(t.date) AS year,
+  EXTRACT(YEAR FROM t.date) AS year,
   SUM(f.sales) AS total_sales
 FROM fact_sales f
 JOIN time_dim t ON f.order_date_id = t.date_id
-GROUP BY YEAR(t.date)
+GROUP BY EXTRACT(YEAR FROM t.date)
 ORDER BY year;
 
 -- Drill down to month
 SELECT
-  YEAR(t.date)  AS year,
-  MONTH(t.date) AS month,
+  EXTRACT(YEAR FROM t.date)  AS year,
+  EXTRACT(MONTH FROM t.date) AS month,
   SUM(f.sales)  AS total_sales
 FROM fact_sales f
 JOIN time_dim t ON f.order_date_id = t.date_id
-GROUP BY YEAR(t.date), MONTH(t.date)
+GROUP BY EXTRACT(YEAR FROM t.date), EXTRACT(MONTH FROM t.date)
 ORDER BY year, month;
 
 -- Category level
@@ -43,14 +45,14 @@ ORDER BY c.category, total_sales DESC;
 
 #SLICE
 SELECT
-  YEAR(t.date) AS year,
+  EXTRACT(YEAR FROM t.date) AS year,
   SUM(f.sales) AS total_sales
 FROM fact_sales f
 JOIN time_dim     t  ON f.order_date_id = t.date_id
 JOIN customer_dim cd ON f.customer_id   = cd.customer_id
 JOIN segment_dim  s  ON cd.segment_id   = s.segment_id
 WHERE s.segment = 'Consumer'
-GROUP BY YEAR(t.date)
+GROUP BY EXTRACT(YEAR FROM t.date)
 ORDER BY year;
 
 SELECT
@@ -69,7 +71,7 @@ ORDER BY total_shipping_cost DESC;
 
 #DICE
 SELECT
-  YEAR(t.date) AS year,
+  EXTRACT(YEAR FROM t.date) AS year,
   ctry.country,
   cat.category,
   s.segment,
@@ -88,9 +90,9 @@ JOIN country_dim    ctry  ON r.country_id    = ctry.country_id
 WHERE s.segment     = 'Consumer'
   AND cat.category  = 'Technology'
   AND ctry.country  = 'United States'
-  AND YEAR(t.date) BETWEEN 2014 AND 2016
+  AND EXTRACT(YEAR FROM t.date) BETWEEN 2014 AND 2016
 GROUP BY
-  YEAR(t.date),
+  EXTRACT(YEAR FROM t.date),
   ctry.country,
   cat.category,
   s.segment
@@ -98,7 +100,7 @@ ORDER BY year;
 
 #PIVOT
 SELECT
-  YEAR(t.date) AS year,
+  EXTRACT(YEAR FROM t.date) AS year,
   ctry.country,
   cat.category,
   s.segment,
@@ -117,9 +119,9 @@ JOIN country_dim    ctry  ON r.country_id    = ctry.country_id
 WHERE s.segment     = 'Consumer'
   AND cat.category  = 'Technology'
   AND ctry.country  = 'United States'
-  AND YEAR(t.date) BETWEEN 2014 AND 2016
+  AND EXTRACT(YEAR FROM t.date) BETWEEN 2014 AND 2016
 GROUP BY
-  YEAR(t.date),
+  EXTRACT(YEAR FROM t.date),
   ctry.country,
   cat.category,
   s.segment

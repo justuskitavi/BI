@@ -1,3 +1,5 @@
+SET search_path TO star;
+
 #1. What is the overal profit margin
 SELECT
     (SUM(profit) / SUM(sales)) * 100 AS profit_margin_percentage
@@ -51,9 +53,9 @@ LIMIT 10;
 
 #7. Sales changes over time
 SELECT 
-    YEAR(t.date) AS year,
+    EXTRACT(YEAR FROM t.date) AS year,
     SUM(f.sales) AS total_sales
 FROM fact_table f
 JOIN time_dim t ON f.date_id = t.date_id
-GROUP BY YEAR(t.date)
+GROUP BY EXTRACT(YEAR FROM t.date)
 ORDER BY year;

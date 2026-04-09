@@ -1,3 +1,5 @@
+SET search_path TO galaxy;
+
 -- 1. What is the total sales, total profit, and overall profit margin of the company?
 SELECT 
     SUM(sales) AS total_sales,
@@ -53,11 +55,11 @@ LIMIT 10;
 
 -- 7. How does sales change over time (yearly trend)?
 SELECT 
-    YEAR(t.date) AS year,
+    EXTRACT(YEAR FROM t.date) AS year,
     SUM(f.sales) AS total_sales
 FROM fact_sales f
 JOIN time_dim t ON f.date_id = t.date_id
-GROUP BY YEAR(t.date)
+GROUP BY EXTRACT(YEAR FROM t.date)
 ORDER BY year;
 
 -- 8. Which shipping mode is used most often?
