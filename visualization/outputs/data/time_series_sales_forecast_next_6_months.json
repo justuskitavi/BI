@@ -1,0 +1,32 @@
+[
+  {
+    "forecast_month":"2015-01-01",
+    "forecast_sales":349892.96,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  },
+  {
+    "forecast_month":"2015-02-01",
+    "forecast_sales":323616.73,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  },
+  {
+    "forecast_month":"2015-03-01",
+    "forecast_sales":374913.15,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  },
+  {
+    "forecast_month":"2015-04-01",
+    "forecast_sales":361318.41,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  },
+  {
+    "forecast_month":"2015-05-01",
+    "forecast_sales":409691.61,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  },
+  {
+    "forecast_month":"2015-06-01",
+    "forecast_sales":495870.78,
+    "method":"linear trend x month seasonality blended with exponential smoothing"
+  }
+]

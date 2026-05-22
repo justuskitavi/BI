@@ -1,0 +1,5 @@
+cluster,customers,avg_recency_days,avg_orders,total_sales,total_profit,avg_profit_margin,avg_discount,avg_order_value,business_label
+0,253,21.767,34.522,5417996,769847.594,0.142,0.126,625.899,Loyal active high-frequency customers
+1,211,27.863,27.227,2419521,362246.385,0.148,0.131,425.486,Loyal active high-frequency customers
+2,264,19.614,35.027,3860274,402440.784,0.104,0.155,420.586,Loyal active high-frequency customers
+3,67,30.06,30.254,945114,-65499.942,-0.074,0.195,465.823,Loss-making / discount-sensitive customers

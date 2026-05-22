@@ -1,0 +1,22 @@
+[
+  {
+    "metric":"test_orders",
+    "value":5007.0
+  },
+  {
+    "metric":"rmse_profit",
+    "value":209.23
+  },
+  {
+    "metric":"mae_profit",
+    "value":103.02
+  },
+  {
+    "metric":"r2",
+    "value":0.4039
+  },
+  {
+    "metric":"profitability_accuracy",
+    "value":0.8736
+  }
+]

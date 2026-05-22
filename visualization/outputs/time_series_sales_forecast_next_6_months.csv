@@ -1,0 +1,7 @@
+forecast_month,forecast_sales,method
+2015-01-01,349892.96,linear trend x month seasonality blended with exponential smoothing
+2015-02-01,323616.73,linear trend x month seasonality blended with exponential smoothing
+2015-03-01,374913.15,linear trend x month seasonality blended with exponential smoothing
+2015-04-01,361318.41,linear trend x month seasonality blended with exponential smoothing
+2015-05-01,409691.61,linear trend x month seasonality blended with exponential smoothing
+2015-06-01,495870.78,linear trend x month seasonality blended with exponential smoothing

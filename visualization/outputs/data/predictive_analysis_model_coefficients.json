@@ -1,0 +1,187 @@
+[
+  {
+    "feature":"sales",
+    "coefficient":156.1944652182,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"unique_products",
+    "coefficient":-91.7039842218,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"discount",
+    "coefficient":-88.586873808,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"Office Supplies",
+    "coefficient":69.8850874662,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"intercept",
+    "coefficient":58.6973465988,
+    "interpretation":"baseline expected order profit"
+  },
+  {
+    "feature":"quantity",
+    "coefficient":-29.1453652384,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"Technology",
+    "coefficient":23.8813749398,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"Furniture",
+    "coefficient":15.0382659121,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"unique_sub_categories",
+    "coefficient":14.7384115008,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_US",
+    "coefficient":12.4146184007,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_EU",
+    "coefficient":-9.0075408354,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_West",
+    "coefficient":-6.3590788869,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_North",
+    "coefficient":5.1701725,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"ship_days",
+    "coefficient":5.0914410758,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_East",
+    "coefficient":-4.309119119,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"ship_mode_Standard Class",
+    "coefficient":-3.6007543666,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Central",
+    "coefficient":2.6186953434,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_LATAM",
+    "coefficient":-2.5614126641,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"ship_mode_Second Class",
+    "coefficient":-2.5215359836,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"order_priority_Low",
+    "coefficient":-2.5025546887,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Caribbean",
+    "coefficient":2.1488890823,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_Canada",
+    "coefficient":-0.8444729288,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Canada",
+    "coefficient":-0.8444729288,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Southeast Asia",
+    "coefficient":-0.7992419763,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_North Asia",
+    "coefficient":0.7185718189,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"order_priority_Medium",
+    "coefficient":-0.6806022857,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"order_priority_High",
+    "coefficient":-0.667480184,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"segment_Corporate",
+    "coefficient":0.5908190866,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"ship_mode_Same Day",
+    "coefficient":0.4073302381,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_Africa",
+    "coefficient":-0.3616649076,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Central Asia",
+    "coefficient":-0.3011685536,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_EMEA",
+    "coefficient":-0.280257959,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"market_EMEA",
+    "coefficient":-0.280257959,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_South",
+    "coefficient":-0.1491861246,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"region_Oceania",
+    "coefficient":-0.1199625973,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"segment_Home Office",
+    "coefficient":-0.0825156341,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  },
+  {
+    "feature":"shipping_cost",
+    "coefficient":-0.0083264001,
+    "interpretation":"positive raises predicted profit; negative lowers it"
+  }
+]

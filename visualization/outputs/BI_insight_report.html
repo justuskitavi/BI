@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SuperStore BI Mining Insight Report</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #1f2937;
+  --muted: #667085;
+  --line: #d0d5dd;
+  --panel: #ffffff;
+  --soft: #f3f6f9;
+  --accent: #0f766e;
+  --accent-2: #7c3aed;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: #edf2f7;
+}
+header {
+  background: linear-gradient(135deg, #0f766e, #1d4ed8);
+  color: white;
+  padding: 28px 36px;
+}
+header h1 { margin: 0 0 8px; font-size: 28px; }
+header p { margin: 0; max-width: 880px; color: #e6fffb; line-height: 1.5; }
+main { padding: 28px 36px 44px; }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.button {
+  display: inline-block;
+  padding: 9px 12px;
+  border-radius: 6px;
+  color: white;
+  background: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+.button.secondary { background: var(--accent-2); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.07);
+}
+.card h2, .card h3 { margin-top: 0; }
+.metric {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+}
+.table-wrap {
+  overflow: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 760px;
+  font-size: 13px;
+}
+th, td {
+  border-bottom: 1px solid #e4e7ec;
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  color: #344054;
+}
+tr:hover td { background: #f9fbfd; }
+.note { color: var(--muted); line-height: 1.5; }
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 220px) 1fr 90px;
+  gap: 10px;
+  align-items: center;
+  margin: 9px 0;
+}
+.bar {
+  height: 14px;
+  border-radius: 999px;
+  background: #dbeafe;
+  overflow: hidden;
+}
+.bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+footer { padding: 0 36px 28px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SuperStore BI Mining Insight Report</h1>
+  <p>This browser report is generated from the Python GUI-style analysis outputs.</p>
+</header>
+<main>
+<div class="toolbar">
+  <a class="button" href="html/index.html">Dashboard Home</a>
+</div>
+
+<section class="card">
+  <p class="note">This report is generated from the Python scripts in <strong>scripts/</strong>. It summarizes the main analytical evidence for each BI concept.</p>
+</section>
+
+<section class="card"><h2>A) Pattern Mining</h2>
+
+Exact product mining finds very specific co-purchases. Because exact product names are sparse, the strongest lifts often have low support, which is realistic for retail baskets.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>item_a</th>
+      <th>item_b</th>
+      <th>orders_together</th>
+      <th>support</th>
+      <th>confidence_a_to_b</th>
+      <th>lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bevis Conference Table, Fully Assembled</td>
+      <td>Hon Conference Table, with Bottom Storage</td>
+      <td>2</td>
+      <td>0.00016</td>
+      <td>0.4000</td>
+      <td>2554.200</td>
+    </tr>
+    <tr>
+      <td>Boston 16765 Mini Stand Up Battery Pencil Sharpener</td>
+      <td>Microsoft Natural Ergonomic Keyboard 4000</td>
+      <td>2</td>
+      <td>0.00016</td>
+      <td>0.6667</td>
+      <td>1702.800</td>
+    </tr>
+    <tr>
+      <td>Eldon Expressions Punched Metal &amp; Wood Desk Accessories, Black &amp; Cherry</td>
+      <td>GBC DocuBind TL300 Electric Binding System</td>
+      <td>2</td>
+      <td>0.00016</td>
+      <td>1.0000</td>
+      <td>1596.375</td>
+    </tr>
+    <tr>
+      <td>Anker Astro Mini 3000mAh Ultra-Compact Portable Charger</td>
+      <td>Bretford CR8500 Series Meeting Room Furniture</td>
+      <td>2</td>
+      <td>0.00016</td>
+      <td>0.6667</td>
+      <td>1419.000</td>
+    </tr>
+    <tr>
+      <td>Acco Side-Punched Conventional Columnar Pads</td>
+      <td>Avery Fluorescent Highlighter Four-Color Set</td>
+      <td>2</td>
+      <td>0.00016</td>
+      <td>0.5000</td>
+      <td>1277.100</td>
+    </tr>
+  </tbody>
+</table></div>
+
+At sub-category level the patterns are easier to explain to business users:
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>item_a</th>
+      <th>item_b</th>
+      <th>orders_together</th>
+      <th>support</th>
+      <th>confidence_a_to_b</th>
+      <th>lift</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Copiers</td>
+      <td>Labels</td>
+      <td>243</td>
+      <td>0.01986</td>
+      <td>0.1531</td>
+      <td>1.047</td>
+    </tr>
+    <tr>
+      <td>Appliances</td>
+      <td>Paper</td>
+      <td>253</td>
+      <td>0.02068</td>
+      <td>0.1981</td>
+      <td>1.037</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Storage</td>
+      <td>833</td>
+      <td>0.06808</td>
+      <td>0.2698</td>
+      <td>1.022</td>
+    </tr>
+    <tr>
+      <td>Bookcases</td>
+      <td>Copiers</td>
+      <td>218</td>
+      <td>0.01782</td>
+      <td>0.1273</td>
+      <td>0.981</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Machines</td>
+      <td>267</td>
+      <td>0.02182</td>
+      <td>0.0865</td>
+      <td>0.980</td>
+    </tr>
+    <tr>
+      <td>Labels</td>
+      <td>Machines</td>
+      <td>154</td>
+      <td>0.01259</td>
+      <td>0.0860</td>
+      <td>0.975</td>
+    </tr>
+    <tr>
+      <td>Chairs</td>
+      <td>Supplies</td>
+      <td>309</td>
+      <td>0.02526</td>
+      <td>0.1359</td>
+      <td>0.971</td>
+    </tr>
+    <tr>
+      <td>Appliances</td>
+      <td>Binders</td>
+      <td>391</td>
+      <td>0.03196</td>
+      <td>0.3062</td>
+      <td>0.970</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>B) Predictive Analysis</h2>
+
+The predictive script trains a ridge regression model to estimate order profit using sales, quantity, discounts, shipping, category mix, market, region, segment, and priority.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>test_orders</td>
+      <td>5007.0000</td>
+    </tr>
+    <tr>
+      <td>rmse_profit</td>
+      <td>209.2300</td>
+    </tr>
+    <tr>
+      <td>mae_profit</td>
+      <td>103.0200</td>
+    </tr>
+    <tr>
+      <td>r2</td>
+      <td>0.4039</td>
+    </tr>
+    <tr>
+      <td>profitability_accuracy</td>
+      <td>0.8736</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>C) Cluster Formation</h2>
+
+Customers are grouped using recency, frequency, monetary value, profit, discounts, market breadth, and category breadth.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cluster</th>
+      <th>customers</th>
+      <th>avg_recency_days</th>
+      <th>avg_orders</th>
+      <th>total_sales</th>
+      <th>total_profit</th>
+      <th>business_label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>253</td>
+      <td>21.767</td>
+      <td>34.522</td>
+      <td>5417996</td>
+      <td>769847.594</td>
+      <td>Loyal active high-frequency customers</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>211</td>
+      <td>27.863</td>
+      <td>27.227</td>
+      <td>2419521</td>
+      <td>362246.385</td>
+      <td>Loyal active high-frequency customers</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>264</td>
+      <td>19.614</td>
+      <td>35.027</td>
+      <td>3860274</td>
+      <td>402440.784</td>
+      <td>Loyal active high-frequency customers</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>67</td>
+      <td>30.060</td>
+      <td>30.254</td>
+      <td>945114</td>
+      <td>-65499.942</td>
+      <td>Loss-making / discount-sensitive customers</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>D) Rules Mining</h2>
+
+Rules are mined as interpretable if-then business policies. High lift means the condition is much more associated with the decision than the baseline.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>if_condition</th>
+      <th>then_decision</th>
+      <th>support_rows</th>
+      <th>confidence</th>
+      <th>lift_vs_baseline</th>
+      <th>profit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sub_category = Furnishings AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>356</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-17953.32</td>
+    </tr>
+    <tr>
+      <td>sub_category = Phones AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>305</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-61102.13</td>
+    </tr>
+    <tr>
+      <td>sub_category = Chairs AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>281</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-48509.53</td>
+    </tr>
+    <tr>
+      <td>sub_category = Bookcases AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>265</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-60362.70</td>
+    </tr>
+    <tr>
+      <td>sub_category = Machines AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>260</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-60065.36</td>
+    </tr>
+    <tr>
+      <td>sub_category = Appliances AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>220</td>
+      <td>1.0000</td>
+      <td>4.089</td>
+      <td>-50740.64</td>
+    </tr>
+    <tr>
+      <td>sub_category = Binders AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>1234</td>
+      <td>0.9984</td>
+      <td>4.083</td>
+      <td>-49854.35</td>
+    </tr>
+    <tr>
+      <td>category = Furniture AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>1123</td>
+      <td>0.9982</td>
+      <td>4.082</td>
+      <td>-221178.39</td>
+    </tr>
+    <tr>
+      <td>sub_category = Tables AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>221</td>
+      <td>0.9910</td>
+      <td>4.052</td>
+      <td>-94352.84</td>
+    </tr>
+    <tr>
+      <td>sub_category = Art AND discount_band = High discount</td>
+      <td>Review pricing/discounts</td>
+      <td>664</td>
+      <td>0.9895</td>
+      <td>4.046</td>
+      <td>-18068.65</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>E) Sequence Discovery</h2>
+
+The sequence script treats each customer's order history as a journey and estimates what tends to follow next.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>from</th>
+      <th>to</th>
+      <th>times_seen</th>
+      <th>probability_next</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Binders</td>
+      <td>Binders</td>
+      <td>101</td>
+      <td>0.0642</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Binders</td>
+      <td>97</td>
+      <td>0.0723</td>
+    </tr>
+    <tr>
+      <td>Binders</td>
+      <td>Art</td>
+      <td>94</td>
+      <td>0.0598</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>Storage</td>
+      <td>84</td>
+      <td>0.0624</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>Binders</td>
+      <td>75</td>
+      <td>0.0557</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Art</td>
+      <td>71</td>
+      <td>0.0529</td>
+    </tr>
+    <tr>
+      <td>Binders</td>
+      <td>Storage</td>
+      <td>70</td>
+      <td>0.0445</td>
+    </tr>
+    <tr>
+      <td>Binders</td>
+      <td>Paper</td>
+      <td>69</td>
+      <td>0.0439</td>
+    </tr>
+    <tr>
+      <td>Art</td>
+      <td>Storage</td>
+      <td>68</td>
+      <td>0.0507</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>Art</td>
+      <td>68</td>
+      <td>0.0505</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>F) Time Series Analysis</h2>
+
+The time-series script creates monthly sales/profit trends, seasonality, moving averages, exponential smoothing, and a six-month sales forecast.
+
+<div class="table-wrap"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>forecast_month</th>
+      <th>forecast_sales</th>
+      <th>method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2015-01-01</td>
+      <td>349892.96</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+    <tr>
+      <td>2015-02-01</td>
+      <td>323616.73</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+    <tr>
+      <td>2015-03-01</td>
+      <td>374913.15</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+    <tr>
+      <td>2015-04-01</td>
+      <td>361318.41</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+    <tr>
+      <td>2015-05-01</td>
+      <td>409691.61</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+    <tr>
+      <td>2015-06-01</td>
+      <td>495870.78</td>
+      <td>linear trend x month seasonality blended with exponential smoothing</td>
+    </tr>
+  </tbody>
+</table></div>
+</section>
+
+<section class="card"><h2>How to Explain the Whole Project</h2>
+
+Pattern mining and rules mining explain relationships in existing transactions. Predictive analysis estimates a future business outcome. Clustering creates customer segments for differentiated action. Sequence discovery adds order of behavior, showing customer journeys. Time series analysis adds time, trend, seasonality, and forecasting.
+</section>
+</main>
+<footer>Generated from SuperStore BI Python analysis.</footer>
+</body>
+</html>

@@ -1,0 +1,702 @@
+[
+  {
+    "item_1":"Apple Audio Dock, Cordless",
+    "item_2":"Avery Hole Reinforcements, Durable",
+    "item_3":"Sanford Pens, Blue",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bush Corner Shelving, Traditional",
+    "item_2":"SanDisk Keyboard, Programmable",
+    "item_3":"SanDisk Mouse, Bluetooth",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acme Trimmer, Serrated",
+    "item_2":"Harbour Creations Swivel Stool, Red",
+    "item_3":"Memorex Mouse, Erganomic",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acme Trimmer, Serrated",
+    "item_2":"Harbour Creations Swivel Stool, Red",
+    "item_3":"Samsung Office Telephone, Full Size",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acme Trimmer, Serrated",
+    "item_2":"Memorex Mouse, Erganomic",
+    "item_3":"Samsung Office Telephone, Full Size",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Red",
+    "item_2":"Memorex Mouse, Erganomic",
+    "item_3":"Samsung Office Telephone, Full Size",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Canon Copy Machine, Color",
+    "item_2":"Hon Shipping Labels, Adjustable",
+    "item_3":"Jiffy Peel and Seal, with clear poly window",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Fellowes Folders, Blue",
+    "item_3":"Hamilton Beach Stove, Red",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Fellowes Folders, Blue",
+    "item_3":"Hoover Microwave, White",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Fellowes Folders, Blue",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Fellowes Folders, Blue",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Hoover Microwave, White",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Brother Copy Machine, Color",
+    "item_2":"Novimex Shipping Labels, Adjustable",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Hoover Microwave, White",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Hamilton Beach Stove, Red",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Fellowes Folders, Blue",
+    "item_2":"Novimex Shipping Labels, Adjustable",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hamilton Beach Stove, Red",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hamilton Beach Stove, Red",
+    "item_2":"Hoover Microwave, White",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hamilton Beach Stove, Red",
+    "item_2":"Novimex Shipping Labels, Adjustable",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hoover Microwave, White",
+    "item_2":"Novimex Shipping Labels, Adjustable",
+    "item_3":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Ikea 3-Shelf Cabinet, Mobile",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Sanford Canvas, Water Color",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"Ikea 3-Shelf Cabinet, Mobile",
+    "item_3":"Sanford Canvas, Water Color",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"Ikea 3-Shelf Cabinet, Mobile",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Binder, Clear",
+    "item_2":"Sanford Canvas, Water Color",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"GlobeWeis Mailers, with clear poly window",
+    "item_2":"Ikea 3-Shelf Cabinet, Mobile",
+    "item_3":"Sanford Canvas, Water Color",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"GlobeWeis Mailers, with clear poly window",
+    "item_2":"Ikea 3-Shelf Cabinet, Mobile",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"GlobeWeis Mailers, with clear poly window",
+    "item_2":"Sanford Canvas, Water Color",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Ikea 3-Shelf Cabinet, Mobile",
+    "item_2":"Sanford Canvas, Water Color",
+    "item_3":"Tenex Clock, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Index Tab, Clear",
+    "item_2":"Jiffy Mailers, with clear poly window",
+    "item_3":"Memorex Flash Drive, Bluetooth",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Index Tab, Clear",
+    "item_2":"Jiffy Mailers, with clear poly window",
+    "item_3":"Stiletto Trimmer, High Speed",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cardinal Index Tab, Clear",
+    "item_2":"Memorex Flash Drive, Bluetooth",
+    "item_3":"Stiletto Trimmer, High Speed",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Jiffy Mailers, with clear poly window",
+    "item_2":"Memorex Flash Drive, Bluetooth",
+    "item_3":"Stiletto Trimmer, High Speed",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Ames Mailers, Security-Tint",
+    "item_2":"Dania Library with Doors, Pine",
+    "item_3":"Ibico Hole Reinforcements, Economy",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Ames Mailers, Security-Tint",
+    "item_2":"Dania Library with Doors, Pine",
+    "item_3":"Memorex Keyboard, Bluetooth",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Ames Mailers, Security-Tint",
+    "item_2":"Ibico Hole Reinforcements, Economy",
+    "item_3":"Memorex Keyboard, Bluetooth",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Dania Library with Doors, Pine",
+    "item_2":"Ibico Hole Reinforcements, Economy",
+    "item_3":"Memorex Keyboard, Bluetooth",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Avery Legal Exhibit Labels, 5000 Label Set",
+    "item_2":"Brother Copy Machine, High-Speed",
+    "item_3":"Kraft Manila Envelope, Set of 50",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Avery Index Tab, Clear",
+    "item_2":"Harbour Creations Steel Folding Chair, Red",
+    "item_3":"Office Star Bag Chairs, Adjustable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Accos Rubber Bands, Metal",
+    "item_2":"Jiffy Mailers, Security-Tint",
+    "item_3":"KitchenAid Refrigerator, White",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Ames Clasp Envelope, Security-Tint",
+    "item_2":"Cardinal Binding Machine, Economy",
+    "item_3":"Green Bar Computer Printout Paper, Premium",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Cuisinart Microwave, Black",
+    "item_3":"Safco Stackable Bookrack, Traditional",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Cuisinart Microwave, Black",
+    "item_3":"Sauder Floating Shelf Set, Mobile",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Cuisinart Microwave, Black",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Safco Stackable Bookrack, Traditional",
+    "item_3":"Sauder Floating Shelf Set, Mobile",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Safco Stackable Bookrack, Traditional",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Numeric Keypad, USB",
+    "item_2":"Sauder Floating Shelf Set, Mobile",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cuisinart Microwave, Black",
+    "item_2":"Safco Stackable Bookrack, Traditional",
+    "item_3":"Sauder Floating Shelf Set, Mobile",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cuisinart Microwave, Black",
+    "item_2":"Safco Stackable Bookrack, Traditional",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Cuisinart Microwave, Black",
+    "item_2":"Sauder Floating Shelf Set, Mobile",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Safco Stackable Bookrack, Traditional",
+    "item_2":"Sauder Floating Shelf Set, Mobile",
+    "item_3":"Smead Box, Single Width",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"Enermax Router, Erganomic",
+    "item_3":"GlobeWeis Mailers, with clear poly window",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"Enermax Router, Erganomic",
+    "item_3":"Konica Card Printer, Red",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"Enermax Router, Erganomic",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Konica Card Printer, Red",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Elite Box Cutter, Easy Grip",
+    "item_2":"Konica Card Printer, Red",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Enermax Router, Erganomic",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Konica Card Printer, Red",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Enermax Router, Erganomic",
+    "item_2":"GlobeWeis Mailers, with clear poly window",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Enermax Router, Erganomic",
+    "item_2":"Konica Card Printer, Red",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"GlobeWeis Mailers, with clear poly window",
+    "item_2":"Konica Card Printer, Red",
+    "item_3":"Wilson Jones Hole Reinforcements, Durable",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acco Index Tab, Clear",
+    "item_2":"Belkin Flash Drive, USB",
+    "item_3":"HP Ink, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acco Index Tab, Clear",
+    "item_2":"Belkin Flash Drive, USB",
+    "item_3":"Hamilton Beach Blender, Black",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Acco Index Tab, Clear",
+    "item_2":"HP Ink, Laser",
+    "item_3":"Hamilton Beach Blender, Black",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Belkin Flash Drive, USB",
+    "item_2":"HP Ink, Laser",
+    "item_3":"Hamilton Beach Blender, Black",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Harbour Creations Swivel Stool, Set of Two",
+    "item_3":"Hon Conference Table, with Bottom Storage",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Harbour Creations Swivel Stool, Set of Two",
+    "item_3":"Jiffy Mailers, Set of 50",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Harbour Creations Swivel Stool, Set of Two",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Harbour Creations Swivel Stool, Set of Two",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Harbour Creations Swivel Stool, Set of Two",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Jiffy Mailers, Set of 50",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Memorex Flash Drive, USB",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Memorex Flash Drive, USB",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Bevis Conference Table, Fully Assembled",
+    "item_2":"Motorola Audio Dock, with Caller ID",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Jiffy Mailers, Set of 50",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Hon Conference Table, with Bottom Storage",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Memorex Flash Drive, USB",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Memorex Flash Drive, USB",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Harbour Creations Swivel Stool, Set of Two",
+    "item_2":"Motorola Audio Dock, with Caller ID",
+    "item_3":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hon Conference Table, with Bottom Storage",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016
+  },
+  {
+    "item_1":"Hon Conference Table, with Bottom Storage",
+    "item_2":"Jiffy Mailers, Set of 50",
+    "item_3":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016
+  }
+]

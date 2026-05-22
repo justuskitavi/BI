@@ -1,0 +1,151 @@
+if_condition,then_decision,support_rows,support_pct,confidence,lift_vs_baseline,sales,profit,avg_discount,avg_margin
+sub_category = Furnishings AND discount_band = High discount,Review pricing/discounts,356,0.0069,1.0,4.089,19008.0,-17953.32,0.605,-0.896
+sub_category = Phones AND discount_band = High discount,Review pricing/discounts,305,0.0059,1.0,4.089,75156.0,-61102.13,0.597,-0.957
+sub_category = Chairs AND discount_band = High discount,Review pricing/discounts,281,0.0055,1.0,4.089,59475.0,-48509.53,0.598,-0.921
+sub_category = Bookcases AND discount_band = High discount,Review pricing/discounts,265,0.0052,1.0,4.089,76399.0,-60362.7,0.599,-0.949
+sub_category = Machines AND discount_band = High discount,Review pricing/discounts,260,0.0051,1.0,4.089,89309.0,-60065.36,0.617,-1.02
+sub_category = Appliances AND discount_band = High discount,Review pricing/discounts,220,0.0043,1.0,4.089,57337.0,-50740.64,0.657,-1.381
+sub_category = Binders AND discount_band = High discount,Review pricing/discounts,1234,0.0241,0.9984,4.083,51156.0,-49854.35,0.669,-1.005
+category = Furniture AND discount_band = High discount,Review pricing/discounts,1123,0.0219,0.9982,4.082,277839.0,-221178.39,0.597,-0.93
+sub_category = Tables AND discount_band = High discount,Review pricing/discounts,221,0.0043,0.991,4.052,122957.0,-94352.84,0.583,-0.975
+sub_category = Art AND discount_band = High discount,Review pricing/discounts,664,0.0129,0.9895,4.046,24935.0,-18068.65,0.585,-0.885
+discount_band = High discount,Review pricing/discounts,6961,0.1357,0.9843,4.025,846335.0,-627411.02,0.588,-0.87
+sub_category = Storage AND discount_band = High discount,Review pricing/discounts,603,0.0118,0.9834,4.021,66503.0,-46883.65,0.579,-0.933
+category = Technology AND discount_band = High discount,Review pricing/discounts,1240,0.0242,0.9823,4.017,305406.0,-204525.44,0.566,-0.832
+category = Office Supplies AND discount_band = High discount,Review pricing/discounts,4598,0.0896,0.9815,4.014,263090.0,-201707.2,0.591,-0.865
+sub_category = Supplies AND discount_band = High discount,Review pricing/discounts,375,0.0073,0.9813,4.013,20282.0,-12241.84,0.537,-0.709
+sub_category = Accessories AND discount_band = High discount,Review pricing/discounts,379,0.0074,0.9763,3.992,54658.0,-31217.13,0.537,-0.689
+sub_category = Envelopes AND discount_band = High discount,Review pricing/discounts,365,0.0071,0.9753,3.988,14680.0,-8072.21,0.544,-0.692
+sub_category = Paper AND discount_band = High discount,Review pricing/discounts,354,0.0069,0.9605,3.927,13523.0,-7958.67,0.54,-0.7
+sub_category = Fasteners AND discount_band = High discount,Review pricing/discounts,412,0.008,0.9587,3.92,8754.0,-4874.09,0.54,-0.665
+sub_category = Copiers AND discount_band = High discount,Review pricing/discounts,296,0.0058,0.9561,3.91,86283.0,-52140.82,0.526,-0.722
+sub_category = Labels AND discount_band = High discount,Review pricing/discounts,371,0.0072,0.9488,3.88,5920.0,-3013.11,0.534,-0.654
+sub_category = Supplies AND discount_band = Medium discount,Review pricing/discounts,162,0.0032,0.8395,3.433,9282.0,-2460.96,0.4,-0.254
+sub_category = Paper AND discount_band = Medium discount,Review pricing/discounts,157,0.0031,0.8344,3.412,6539.0,-1866.3,0.4,-0.254
+sub_category = Tables AND discount_band = Medium discount,Review pricing/discounts,246,0.0048,0.8333,3.408,211068.0,-38188.31,0.344,-0.197
+sub_category = Binders AND discount_band = Medium discount,Review pricing/discounts,212,0.0041,0.8302,3.395,6829.0,-2051.32,0.4,-0.275
+sub_category = Bookcases AND discount_band = Medium discount,Review pricing/discounts,307,0.006,0.8208,3.357,126732.0,-30073.47,0.38,-0.247
+sub_category = Fasteners AND discount_band = Medium discount,Review pricing/discounts,176,0.0034,0.8182,3.346,3919.0,-1126.47,0.4,-0.269
+sub_category = Phones AND discount_band = Medium discount,Review pricing/discounts,366,0.0071,0.8169,3.341,127658.0,-25969.84,0.384,-0.222
+sub_category = Appliances AND discount_band = Medium discount,Review pricing/discounts,87,0.0017,0.8161,3.337,38493.0,-7349.1,0.4,-0.224
+category = Office Supplies AND discount_band = Medium discount,Review pricing/discounts,1783,0.0348,0.779,3.186,153879.0,-36051.45,0.393,-0.233
+sub_category = Labels AND discount_band = Medium discount,Review pricing/discounts,150,0.0029,0.7733,3.162,2547.0,-557.09,0.4,-0.238
+sub_category = Accessories AND discount_band = Medium discount,Review pricing/discounts,198,0.0039,0.7626,3.118,27229.0,-6182.93,0.4,-0.223
+discount_band = Medium discount,Review pricing/discounts,4367,0.0851,0.7621,3.116,1083907.0,-187271.06,0.37,-0.2
+sub_category = Envelopes AND discount_band = Medium discount,Review pricing/discounts,193,0.0038,0.7617,3.115,10013.0,-2354.49,0.4,-0.217
+category = Technology AND discount_band = Medium discount,Review pricing/discounts,848,0.0165,0.7559,3.091,303546.0,-52635.26,0.373,-0.2
+category = Furniture AND discount_band = Medium discount,Review pricing/discounts,1736,0.0338,0.7477,3.057,626482.0,-98584.35,0.344,-0.166
+sub_category = Storage AND discount_band = Medium discount,Review pricing/discounts,384,0.0075,0.7448,3.046,58651.0,-15915.79,0.4,-0.241
+sub_category = Chairs AND discount_band = Medium discount,Review pricing/discounts,638,0.0124,0.7429,3.038,232614.0,-23921.17,0.325,-0.135
+sub_category = Machines AND discount_band = Medium discount,Review pricing/discounts,118,0.0023,0.7373,3.015,61182.0,-12682.84,0.355,-0.191
+sub_category = Art AND discount_band = Medium discount,Review pricing/discounts,262,0.0051,0.6947,2.841,17606.0,-2369.94,0.351,-0.15
+sub_category = Furnishings AND discount_band = Medium discount,Review pricing/discounts,545,0.0106,0.6734,2.754,56068.0,-6401.39,0.346,-0.143
+sub_category = Copiers AND discount_band = Medium discount,Review pricing/discounts,166,0.0032,0.6265,2.562,87477.0,-7799.65,0.332,-0.131
+sub_category = Tables,Review pricing/discounts,861,0.0168,0.5761,2.356,757034.0,-64083.39,0.291,-0.242
+region = Southeast Asia,Review pricing/discounts,3129,0.061,0.5331,2.18,884438.0,17852.33,0.272,-0.079
+market = LATAM AND category = Furniture,Review pricing/discounts,2382,0.0464,0.39,1.595,811960.0,41597.7,0.201,-0.029
+sub_category = Tables AND discount_band = Low discount,Review pricing/discounts,186,0.0036,0.3871,1.583,161202.0,8010.56,0.198,0.038
+sub_category = Storage AND discount_band = Low discount,Review pricing/discounts,1461,0.0285,0.3429,1.402,379812.0,39656.38,0.135,0.094
+market = US AND category = Furniture,Review pricing/discounts,2121,0.0414,0.3366,1.377,742006.0,18451.27,0.174,0.039
+discount_band = No discount,Good candidate to promote,29009,0.5656,1.0,1.324,6992734.0,1770695.27,0.0,0.265
+category = Office Supplies AND discount_band = No discount,Good candidate to promote,19209,0.3745,1.0,1.324,2378027.0,608725.29,0.0,0.271
+category = Technology AND discount_band = No discount,Good candidate to promote,5304,0.1034,1.0,1.324,2689538.0,696357.03,0.0,0.249
+category = Furniture AND discount_band = No discount,Good candidate to promote,4496,0.0877,1.0,1.324,1925169.0,465612.96,0.0,0.256
+sub_category = Binders AND discount_band = No discount,Good candidate to promote,3578,0.0698,1.0,1.324,282499.0,89849.29,0.0,0.279
+sub_category = Art AND discount_band = No discount,Good candidate to promote,3385,0.066,1.0,1.324,294007.0,73528.19,0.0,0.256
+sub_category = Storage AND discount_band = No discount,Good candidate to promote,2611,0.0509,1.0,1.324,622158.0,131604.54,0.0,0.223
+sub_category = Paper AND discount_band = No discount,Good candidate to promote,2269,0.0442,1.0,1.324,177910.0,56725.66,0.0,0.337
+sub_category = Accessories AND discount_band = No discount,Good candidate to promote,1973,0.0385,1.0,1.324,554447.0,149217.18,0.0,0.256
+sub_category = Furnishings AND discount_band = No discount,Good candidate to promote,1825,0.0356,1.0,1.324,255125.0,64761.82,0.0,0.275
+sub_category = Labels AND discount_band = No discount,Good candidate to promote,1715,0.0334,1.0,1.324,53905.0,16131.49,0.0,0.296
+sub_category = Phones AND discount_band = No discount,Good candidate to promote,1689,0.0329,1.0,1.324,1000426.0,240232.05,0.0,0.239
+sub_category = Supplies AND discount_band = No discount,Good candidate to promote,1584,0.0309,1.0,1.324,174952.0,36902.79,0.0,0.242
+sub_category = Envelopes AND discount_band = No discount,Good candidate to promote,1582,0.0308,1.0,1.324,126075.0,36101.97,0.0,0.287
+sub_category = Fasteners AND discount_band = No discount,Good candidate to promote,1518,0.0296,1.0,1.324,60354.0,15943.47,0.0,0.266
+sub_category = Chairs AND discount_band = No discount,Good candidate to promote,1336,0.026,1.0,1.324,638798.0,152517.35,0.0,0.241
+sub_category = Bookcases AND discount_band = No discount,Good candidate to promote,1127,0.022,1.0,1.324,769439.0,187886.59,0.0,0.249
+sub_category = Appliances AND discount_band = No discount,Good candidate to promote,967,0.0189,1.0,1.324,586167.0,151937.89,0.0,0.261
+sub_category = Copiers AND discount_band = No discount,Good candidate to promote,888,0.0173,1.0,1.324,720722.0,200437.21,0.0,0.255
+sub_category = Machines AND discount_band = No discount,Good candidate to promote,754,0.0147,1.0,1.324,413943.0,106470.58,0.0,0.242
+market = Canada,Good candidate to promote,384,0.0075,1.0,1.324,66932.0,17817.39,0.0,0.247
+region = Canada,Good candidate to promote,384,0.0075,1.0,1.324,66932.0,17817.39,0.0,0.247
+market = Canada AND category = Office Supplies,Good candidate to promote,277,0.0054,1.0,1.324,30037.0,7957.53,0.0,0.256
+sub_category = Tables AND discount_band = No discount,Good candidate to promote,208,0.0041,1.0,1.324,261807.0,60447.2,0.0,0.233
+market = Canada AND category = Technology,Good candidate to promote,65,0.0013,1.0,1.324,26300.0,7246.62,0.0,0.222
+sub_category = Paper AND discount_band = Low discount,Good candidate to promote,758,0.0148,0.9261,1.226,46335.0,12306.99,0.176,0.289
+region = North Asia,Good candidate to promote,2338,0.0456,0.9055,1.199,848349.0,165578.42,0.049,0.18
+region = West,Good candidate to promote,3203,0.0624,0.9007,1.192,725514.0,108418.45,0.109,0.219
+sub_category = Binders AND discount_band = Low discount,Good candidate to promote,1128,0.022,0.8936,1.183,121468.0,34506.22,0.171,0.251
+sub_category = Art AND discount_band = Low discount,Good candidate to promote,572,0.0112,0.8759,1.159,35615.0,4864.31,0.162,0.145
+region = Central Asia,Good candidate to promote,2048,0.0399,0.8667,1.147,752839.0,132480.19,0.067,0.147
+sub_category = Labels AND discount_band = Low discount,Good candidate to promote,370,0.0072,0.8595,1.138,11061.0,2449.23,0.151,0.221
+market = US AND category = Office Supplies,Good candidate to promote,6026,0.1175,0.853,1.129,719127.0,122490.8,0.157,0.138
+market = US AND category = Technology,Good candidate to promote,1847,0.036,0.8533,1.129,836221.0,145454.95,0.132,0.156
+sub_category = Paper,Good candidate to promote,3538,0.069,0.851,1.127,244307.0,59207.68,0.109,0.197
+sub_category = Copiers AND discount_band = Low discount,Good candidate to promote,873,0.017,0.8419,1.114,614957.0,118070.81,0.057,0.192
+sub_category = Envelopes AND discount_band = Low discount,Good candidate to promote,295,0.0058,0.8237,1.09,20158.0,3925.84,0.153,0.201
+market = EU AND category = Office Supplies,Good candidate to promote,6589,0.1285,0.8199,1.085,1046359.0,159706.94,0.087,0.136
+sub_category = Furnishings AND discount_band = Low discount,Good candidate to promote,444,0.0087,0.8176,1.082,55408.0,6560.32,0.169,0.156
+sub_category = Phones AND discount_band = Low discount,Good candidate to promote,997,0.0194,0.8144,1.078,503634.0,63556.93,0.168,0.111
+sub_category = Art,Good candidate to promote,4883,0.0952,0.8136,1.077,372163.0,57953.91,0.117,0.066
+market = US,Good candidate to promote,9994,0.1949,0.8128,1.076,2297354.0,286397.02,0.156,0.12
+sub_category = Appliances AND discount_band = Low discount,Good candidate to promote,481,0.0094,0.8108,1.073,329084.0,47832.44,0.144,0.143
+region = North,Good candidate to promote,4785,0.0933,0.8096,1.072,1248192.0,194597.95,0.096,0.125
+category = Office Supplies AND discount_band = Low discount,Good candidate to promote,5683,0.1108,0.8063,1.067,992334.0,147507.2,0.154,0.178
+region = East,Good candidate to promote,2848,0.0555,0.8058,1.067,678834.0,91522.78,0.145,0.167
+sub_category = Labels,Good candidate to promote,2606,0.0508,0.8005,1.06,73433.0,15010.51,0.12,0.119
+category = Technology AND discount_band = Low discount,Good candidate to promote,2749,0.0536,0.7945,1.052,1446201.0,224582.4,0.129,0.141
+market = EU,Good candidate to promote,10000,0.195,0.7882,1.043,2938139.0,372829.74,0.103,0.11
+ship_mode = Same Day AND order_priority = Critical,Good candidate to promote,742,0.0145,0.7871,1.042,178633.0,19429.01,0.129,0.082
+sub_category = Accessories,Good candidate to promote,3075,0.06,0.7867,1.041,749307.0,129626.31,0.12,0.087
+discount_band = Low discount,Good candidate to promote,10953,0.2136,0.7843,1.038,3719929.0,513021.63,0.148,0.152
+sub_category = Appliances,Good candidate to promote,1755,0.0342,0.7823,1.036,1011081.0,141680.59,0.142,-0.001
+market = LATAM AND category = Office Supplies,Good candidate to promote,5862,0.1143,0.7794,1.032,563966.0,79459.07,0.115,0.095
+market = Africa AND category = Office Supplies,Good candidate to promote,3045,0.0594,0.7764,1.028,266752.0,28480.05,0.156,-0.138
+category = Office Supplies,Good candidate to promote,31273,0.6097,0.7761,1.027,3787330.0,518473.83,0.137,0.059
+market = Africa,Good candidate to promote,4587,0.0894,0.7755,1.026,783776.0,88871.63,0.157,-0.145
+region = Africa,Good candidate to promote,4587,0.0894,0.7755,1.026,783776.0,88871.63,0.157,-0.145
+market = Africa AND category = Technology,Good candidate to promote,911,0.0178,0.7739,1.024,322374.0,44129.49,0.157,-0.16
+market = Africa AND category = Furniture,Good candidate to promote,631,0.0123,0.7734,1.024,194650.0,16262.09,0.159,-0.156
+sub_category = Envelopes,Good candidate to promote,2435,0.0475,0.7721,1.022,170926.0,29601.12,0.132,0.09
+ship_mode = Same Day AND order_priority = Medium,Good candidate to promote,690,0.0135,0.7681,1.017,173516.0,22524.43,0.136,0.057
+market = LATAM AND category = Technology,Good candidate to promote,2050,0.04,0.7678,1.016,788761.0,100586.72,0.117,0.073
+sub_category = Fasteners AND discount_band = Low discount,Good candidate to promote,314,0.0061,0.7675,1.016,10227.0,1582.52,0.151,0.162
+sub_category = Phones,Good candidate to promote,3357,0.0655,0.765,1.013,1706874.0,216717.01,0.146,0.042
+ship_mode = Second Class AND order_priority = Critical,Good candidate to promote,1456,0.0284,0.7644,1.012,390711.0,50541.66,0.134,0.058
+sub_category = Copiers,Good candidate to promote,2223,0.0433,0.7638,1.011,1509439.0,258567.55,0.117,0.072
+ship_mode = Second Class AND order_priority = High,Good candidate to promote,4010,0.0782,0.7626,1.009,970132.0,104578.73,0.138,0.061
+ship_mode = First Class AND order_priority = Critical,Good candidate to promote,1734,0.0338,0.7618,1.008,416914.0,55831.02,0.142,0.046
+category = Technology,Good candidate to promote,10141,0.1977,0.761,1.007,4744691.0,663778.73,0.135,0.05
+ship_mode = Standard Class AND order_priority = High,Good candidate to promote,6809,0.1328,0.7574,1.003,1692514.0,197629.26,0.14,0.053
+sub_category = Supplies,Good candidate to promote,2425,0.0473,0.7571,1.002,243090.0,22583.26,0.128,0.044
+ship_mode = Second Class AND order_priority = Medium,Good candidate to promote,4843,0.0944,0.7551,1.0,1204904.0,139040.66,0.145,0.044
+ship_mode = Standard Class AND order_priority = Low,Good candidate to promote,2424,0.0473,0.7554,1.0,567843.0,58655.85,0.142,0.047
+ship_mode = Standard Class AND order_priority = Medium,Good candidate to promote,21542,0.42,0.7545,0.999,5318532.0,634310.91,0.143,0.047
+sub_category = Binders,Good candidate to promote,6152,0.1199,0.7516,0.995,461952.0,72449.85,0.179,-0.003
+region = Central,Good candidate to promote,11117,0.2167,0.7498,0.992,2822399.0,311403.98,0.139,0.06
+sub_category = Fasteners,Good candidate to promote,2420,0.0472,0.7471,0.989,83254.0,11525.42,0.141,0.055
+ship_mode = First Class AND order_priority = High,Good candidate to promote,3413,0.0665,0.7463,0.988,830000.0,83945.89,0.151,0.026
+sub_category = Furnishings,Good candidate to promote,3170,0.0618,0.7464,0.988,385609.0,46967.43,0.151,0.055
+region = South,Good candidate to promote,6645,0.1296,0.746,0.987,1600960.0,140355.77,0.149,0.053
+ship_mode = First Class AND order_priority = Medium,Good candidate to promote,2358,0.046,0.7443,0.985,584153.0,68327.77,0.151,0.038
+region = Caribbean,Good candidate to promote,1690,0.0329,0.7426,0.983,324281.0,34571.32,0.136,0.081
+sub_category = Accessories AND discount_band = Low discount,Good candidate to promote,525,0.0102,0.7429,0.983,112973.0,17809.18,0.167,0.127
+ship_mode = Same Day AND order_priority = High,Good candidate to promote,1269,0.0247,0.7415,0.982,315053.0,34219.63,0.156,0.032
+market = LATAM,Good candidate to promote,10294,0.2007,0.7379,0.977,2164687.0,221643.49,0.136,0.062
+market = EU AND category = Technology,Good candidate to promote,1910,0.0372,0.733,0.97,1112692.0,144272.66,0.119,0.08
+sub_category = Storage,Good candidate to promote,5059,0.0986,0.7272,0.963,1127124.0,108461.49,0.138,0.013
+market = APAC AND category = Furniture,Good candidate to promote,2429,0.0474,0.7266,0.962,1343958.0,127473.68,0.138,0.086
+market = APAC AND category = Technology,Good candidate to promote,2396,0.0467,0.7266,0.962,1357498.0,204593.86,0.137,0.084
+category = Furniture AND discount_band = Low discount,Good candidate to promote,2521,0.0492,0.7235,0.958,1281394.0,140932.03,0.156,0.106
+sub_category = Supplies AND discount_band = Low discount,Good candidate to promote,304,0.0059,0.7204,0.954,38574.0,383.26,0.145,0.097
+market = EU AND category = Furniture,Good candidate to promote,1501,0.0293,0.7195,0.952,779088.0,68850.14,0.151,0.036
+sub_category = Bookcases AND discount_band = Low discount,Good candidate to promote,712,0.0139,0.7191,0.952,493989.0,64474.0,0.134,0.115
+sub_category = Chairs AND discount_band = Low discount,Good candidate to promote,1179,0.023,0.7082,0.937,570795.0,61887.15,0.157,0.092
+market = APAC,Good candidate to promote,11002,0.2145,0.7073,0.936,3585833.0,437577.58,0.149,0.07
+sub_category = Bookcases,Good candidate to promote,2411,0.047,0.7026,0.93,1466559.0,161924.42,0.154,0.015
+sub_category = Machines AND discount_band = Low discount,Good candidate to promote,354,0.0069,0.6977,0.924,214637.0,25145.49,0.14,0.116
+region = Oceania,Good candidate to promote,3487,0.068,0.6966,0.922,1100207.0,121666.64,0.153,0.084
+sub_category = Machines,Good candidate to promote,1486,0.029,0.6945,0.919,779071.0,58867.87,0.17,-0.043
+market = APAC AND category = Office Supplies,Good candidate to promote,6177,0.1204,0.6922,0.916,884377.0,105510.04,0.158,0.058
+category = Furniture,Good candidate to promote,9876,0.1926,0.6845,0.906,4110884.0,286782.25,0.168,0.009

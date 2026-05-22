@@ -1,0 +1,38 @@
+feature,coefficient,interpretation
+sales,156.19446521820785,positive raises predicted profit; negative lowers it
+unique_products,-91.70398422175148,positive raises predicted profit; negative lowers it
+discount,-88.58687380802725,positive raises predicted profit; negative lowers it
+Office Supplies,69.88508746615094,positive raises predicted profit; negative lowers it
+intercept,58.69734659876175,baseline expected order profit
+quantity,-29.145365238418403,positive raises predicted profit; negative lowers it
+Technology,23.88137493981915,positive raises predicted profit; negative lowers it
+Furniture,15.038265912142295,positive raises predicted profit; negative lowers it
+unique_sub_categories,14.73841150079633,positive raises predicted profit; negative lowers it
+market_US,12.414618400656959,positive raises predicted profit; negative lowers it
+market_EU,-9.007540835402803,positive raises predicted profit; negative lowers it
+region_West,-6.359078886860618,positive raises predicted profit; negative lowers it
+region_North,5.170172499990197,positive raises predicted profit; negative lowers it
+ship_days,5.091441075799923,positive raises predicted profit; negative lowers it
+region_East,-4.309119118979932,positive raises predicted profit; negative lowers it
+ship_mode_Standard Class,-3.600754366639524,positive raises predicted profit; negative lowers it
+region_Central,2.618695343411573,positive raises predicted profit; negative lowers it
+market_LATAM,-2.561412664117,positive raises predicted profit; negative lowers it
+ship_mode_Second Class,-2.5215359835716913,positive raises predicted profit; negative lowers it
+order_priority_Low,-2.502554688681229,positive raises predicted profit; negative lowers it
+region_Caribbean,2.148889082344643,positive raises predicted profit; negative lowers it
+market_Canada,-0.8444729287887613,positive raises predicted profit; negative lowers it
+region_Canada,-0.8444729287879775,positive raises predicted profit; negative lowers it
+region_Southeast Asia,-0.7992419762595027,positive raises predicted profit; negative lowers it
+region_North Asia,0.7185718188888167,positive raises predicted profit; negative lowers it
+order_priority_Medium,-0.6806022856691112,positive raises predicted profit; negative lowers it
+order_priority_High,-0.6674801840451632,positive raises predicted profit; negative lowers it
+segment_Corporate,0.5908190865529767,positive raises predicted profit; negative lowers it
+ship_mode_Same Day,0.40733023811911656,positive raises predicted profit; negative lowers it
+market_Africa,-0.3616649076177776,positive raises predicted profit; negative lowers it
+region_Central Asia,-0.3011685536064837,positive raises predicted profit; negative lowers it
+region_EMEA,-0.2802579590023692,positive raises predicted profit; negative lowers it
+market_EMEA,-0.2802579590013233,positive raises predicted profit; negative lowers it
+region_South,-0.14918612460753566,positive raises predicted profit; negative lowers it
+region_Oceania,-0.11996259729247805,positive raises predicted profit; negative lowers it
+segment_Home Office,-0.08251563405859856,positive raises predicted profit; negative lowers it
+shipping_cost,-0.00832640009587393,positive raises predicted profit; negative lowers it

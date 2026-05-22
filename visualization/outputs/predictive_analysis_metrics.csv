@@ -1,0 +1,6 @@
+metric,value
+test_orders,5007.0
+rmse_profit,209.23
+mae_profit,103.02
+r2,0.4039
+profitability_accuracy,0.8736

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SuperStore BI Dashboard</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #1f2937;
+  --muted: #667085;
+  --line: #d0d5dd;
+  --panel: #ffffff;
+  --soft: #f3f6f9;
+  --accent: #0f766e;
+  --accent-2: #7c3aed;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: #edf2f7;
+}
+header {
+  background: linear-gradient(135deg, #0f766e, #1d4ed8);
+  color: white;
+  padding: 28px 36px;
+}
+header h1 { margin: 0 0 8px; font-size: 28px; }
+header p { margin: 0; max-width: 880px; color: #e6fffb; line-height: 1.5; }
+main { padding: 28px 36px 44px; }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.button {
+  display: inline-block;
+  padding: 9px 12px;
+  border-radius: 6px;
+  color: white;
+  background: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+.button.secondary { background: var(--accent-2); }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.07);
+}
+.card h2, .card h3 { margin-top: 0; }
+.metric {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+}
+.table-wrap {
+  overflow: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 760px;
+  font-size: 13px;
+}
+th, td {
+  border-bottom: 1px solid #e4e7ec;
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: #f8fafc;
+  color: #344054;
+}
+tr:hover td { background: #f9fbfd; }
+.note { color: var(--muted); line-height: 1.5; }
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 220px) 1fr 90px;
+  gap: 10px;
+  align-items: center;
+  margin: 9px 0;
+}
+.bar {
+  height: 14px;
+  border-radius: 999px;
+  background: #dbeafe;
+  overflow: hidden;
+}
+.bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+footer { padding: 0 36px 28px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>SuperStore BI Dashboard</h1>
+    <p>Browser-based GUI for the pattern mining, prediction, clustering, rules, sequence, and time-series analyses.</p>
+  </header>
+  <main>
+    <div class="toolbar">
+      <a class="button secondary" href="../BI_insight_report.html">Open Insight Report</a>
+    </div>
+    <section class="grid">
+      
+    <article class="card" style="grid-column: 1 / -1;">
+      <h2>Cluster Map Visualization</h2>
+      <p class="note">PCA Projection of customer segments based on 6 behavioral dimensions.</p>
+      <img src="../customer_clusters_visualization.png" style="width: 100%; border-radius: 8px; border: 1px solid var(--line); margin-top: 10px;">
+    </article>
+    
+    <article class="card" style="grid-column: 1 / -1;">
+      <h2>Sales & Profit Forecast Visualization</h2>
+      <p class="note">Historical monthly trends vs. 6-month projected growth.</p>
+      <img src="../time_series_forecast_visualization.png" style="width: 100%; border-radius: 8px; border: 1px solid var(--line); margin-top: 10px;">
+    </article>
+    
+            <article class="card">
+              <h2>Pattern Mining</h2>
+              <p class="note">Frequent co-purchases with support, confidence, and lift.</p>
+              <a class="button" href="pattern_mining_frequent_product_name_pairs.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Pattern Mining: Sub-Categories</h2>
+              <p class="note">Cleaner product-family associations for business storytelling.</p>
+              <a class="button" href="pattern_mining_frequent_sub_category_pairs.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Predictive Analysis</h2>
+              <p class="note">Profit prediction metrics, model coefficients, and prediction audit.</p>
+              <a class="button" href="predictive_analysis_metrics.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Customer Clusters</h2>
+              <p class="note">Customer groups based on recency, frequency, value, discounting, and profit.</p>
+              <a class="button" href="cluster_formation_customer_cluster_summary.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Rules Mining</h2>
+              <p class="note">If-then decision rules for discount, loss, and promotion choices.</p>
+              <a class="button" href="rules_mining_business_decision_rules.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Sequence Discovery</h2>
+              <p class="note">Next-purchase transitions across customer order histories.</p>
+              <a class="button" href="sequence_discovery_customer_next_purchase_transitions.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Time Series Analysis</h2>
+              <p class="note">Monthly sales/profit trend, seasonality, and forecast outputs.</p>
+              <a class="button" href="time_series_monthly_sales_profit.html">Open</a>
+            </article>
+            
+            <article class="card">
+              <h2>Forecast</h2>
+              <p class="note">Six-month sales forecast from trend, seasonality, and smoothing.</p>
+              <a class="button" href="time_series_sales_forecast_next_6_months.html">Open</a>
+            </article>
+            
+    </section>
+  </main>
+  <footer>Run <strong>python scripts/run_all.py</strong> to refresh this dashboard.</footer>
+</body>
+</html>

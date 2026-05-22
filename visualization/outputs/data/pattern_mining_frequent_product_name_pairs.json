@@ -1,0 +1,902 @@
+[
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Hon Conference Table, with Bottom Storage",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":1.0,
+    "lift":2554.2
+  },
+  {
+    "item_a":"Boston 16765 Mini Stand Up Battery Pencil Sharpener",
+    "item_b":"Microsoft Natural Ergonomic Keyboard 4000",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.6667,
+    "confidence_b_to_a":0.4,
+    "lift":1702.8
+  },
+  {
+    "item_a":"Eldon Expressions Punched Metal & Wood Desk Accessories, Black & Cherry",
+    "item_b":"GBC DocuBind TL300 Electric Binding System",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":1.0,
+    "confidence_b_to_a":0.25,
+    "lift":1596.375
+  },
+  {
+    "item_a":"Anker Astro Mini 3000mAh Ultra-Compact Portable Charger",
+    "item_b":"Bretford CR8500 Series Meeting Room Furniture",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.6667,
+    "confidence_b_to_a":0.3333,
+    "lift":1419.0
+  },
+  {
+    "item_a":"Acco Side-Punched Conventional Columnar Pads",
+    "item_b":"Avery Fluorescent Highlighter Four-Color Set",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.5,
+    "confidence_b_to_a":0.4,
+    "lift":1277.1
+  },
+  {
+    "item_a":"Belkin Premiere Surge Master II 8-outlet surge protector",
+    "item_b":"SAFCO Optional Arm Kit for Workspace Cribbage Stacking Chair",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.5,
+    "lift":1277.1
+  },
+  {
+    "item_a":"Cisco SPA301",
+    "item_b":"Seth Thomas 8 1\/2\" Cubicle Clock",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.6667,
+    "lift":1064.25
+  },
+  {
+    "item_a":"Hon Rectangular Conference Tables",
+    "item_b":"Plantronics CS510 - Over-the-Head monaural Wireless Headset System",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.6667,
+    "confidence_b_to_a":0.25,
+    "lift":1064.25
+  },
+  {
+    "item_a":"Hon Conference Table, with Bottom Storage",
+    "item_b":"Jiffy Mailers, Set of 50",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":1.0,
+    "confidence_b_to_a":0.1538,
+    "lift":982.385
+  },
+  {
+    "item_a":"Hon Conference Table, with Bottom Storage",
+    "item_b":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":1.0,
+    "confidence_b_to_a":0.1538,
+    "lift":982.385
+  },
+  {
+    "item_a":"Hon Conference Table, with Bottom Storage",
+    "item_b":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":1.0,
+    "confidence_b_to_a":0.1538,
+    "lift":982.385
+  },
+  {
+    "item_a":"GBC Plastic Binding Combs",
+    "item_b":"Hon Valutask Swivel Chairs",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.6667,
+    "lift":946.0
+  },
+  {
+    "item_a":"Cisco SPA508G",
+    "item_b":"Global Commerce Series High-Back Swivel\/Tilt Chairs",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.5,
+    "confidence_b_to_a":0.2857,
+    "lift":912.214
+  },
+  {
+    "item_a":"Logitech\u00a0VX Revolution Cordless Laser Mouse for Notebooks (Black)",
+    "item_b":"Tennsco Industrial Shelving",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.5,
+    "confidence_b_to_a":0.2857,
+    "lift":912.214
+  },
+  {
+    "item_a":"Acco Hanging Data Binders",
+    "item_b":"Newell 315",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.5,
+    "lift":912.214
+  },
+  {
+    "item_a":"Wirebound Message Books, Four 2 3\/4\" x 5\" Forms per Page, 600 Sets per Book",
+    "item_b":"Xerox 1882",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.5,
+    "lift":912.214
+  },
+  {
+    "item_a":"Avery 485",
+    "item_b":"DMI Eclipse Executive Suite Bookcases",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.4,
+    "lift":851.4
+  },
+  {
+    "item_a":"GBC Recycled VeloBinder Covers",
+    "item_b":"Wilson Jones Active Use Binders",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.4,
+    "lift":851.4
+  },
+  {
+    "item_a":"Avery Recycled Flexi-View Covers for Binding Systems",
+    "item_b":"Lumber Crayons",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.4,
+    "lift":851.4
+  },
+  {
+    "item_a":"Avery 486",
+    "item_b":"Logitech G35 7.1-Channel Surround Sound Headset",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.4,
+    "lift":851.4
+  },
+  {
+    "item_a":"Avery 505",
+    "item_b":"OIC #2 Pencils, Medium Soft",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.4,
+    "lift":851.4
+  },
+  {
+    "item_a":"Hon Conference Table, with Bottom Storage",
+    "item_b":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":1.0,
+    "confidence_b_to_a":0.125,
+    "lift":798.188
+  },
+  {
+    "item_a":"Xerox 1894",
+    "item_b":"Xerox 225",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.5,
+    "confidence_b_to_a":0.25,
+    "lift":798.188
+  },
+  {
+    "item_a":"X-Rack File for Hanging Folders",
+    "item_b":"Xerox 192",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.4,
+    "lift":729.771
+  },
+  {
+    "item_a":"Anker Astro 15000mAh USB Portable Charger",
+    "item_b":"GBC Prestige Therm-A-Bind Covers",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.2857,
+    "lift":729.771
+  },
+  {
+    "item_a":"Acco Perma 4000 Stacking Storage Drawers",
+    "item_b":"Canon imageCLASS 2200 Advanced Copier",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.5,
+    "lift":709.5
+  },
+  {
+    "item_a":"Harbour Creations Swivel Stool, Set of Two",
+    "item_b":"Hon Conference Table, with Bottom Storage",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1111,
+    "confidence_b_to_a":1.0,
+    "lift":709.5
+  },
+  {
+    "item_a":"Acme Value Line Scissors",
+    "item_b":"Memorex Mini Travel Drive 64 GB USB 2.0 Flash Drive",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.4,
+    "lift":638.55
+  },
+  {
+    "item_a":"DAX Value U-Channel Document Frames, Easel Back",
+    "item_b":"Recycled Easel Ring Binders",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.25,
+    "lift":638.55
+  },
+  {
+    "item_a":"Acco Hot Clips Clips to Go",
+    "item_b":"Flat Face Poster Frame",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.2222,
+    "lift":567.6
+  },
+  {
+    "item_a":"GBC Standard Therm-A-Bind Covers",
+    "item_b":"Google Nexus 5",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.4,
+    "lift":567.6
+  },
+  {
+    "item_a":"GBC Standard Recycled Report Covers, Clear Plastic Sheets",
+    "item_b":"O'Sullivan 4-Shelf Bookcase in Odessa Pine",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.2857,
+    "lift":521.265
+  },
+  {
+    "item_a":"GBC VeloBinder Manual Binding System",
+    "item_b":"Insertable Tab Post Binder Dividers",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.2857,
+    "lift":521.265
+  },
+  {
+    "item_a":"Eldon Wave Desk Accessories",
+    "item_b":"OIC Binder Clips",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.5,
+    "lift":491.192
+  },
+  {
+    "item_a":"Carina Double Wide Media Storage Towers in Natural & Black",
+    "item_b":"GBC Wire Binding Combs",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.2857,
+    "lift":405.429
+  },
+  {
+    "item_a":"Advantus Rolling Storage Box",
+    "item_b":"Great White Multi-Use Recycled Paper (20Lb. and 84 Bright)",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.2857,
+    "lift":405.429
+  },
+  {
+    "item_a":"Acco D-Ring Binder w\/DublLock",
+    "item_b":"I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green\/pink",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.25,
+    "lift":399.094
+  },
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Jiffy Mailers, Set of 50",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.1538,
+    "lift":392.954
+  },
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.1538,
+    "lift":392.954
+  },
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.1538,
+    "lift":392.954
+  },
+  {
+    "item_a":"Advantus Rubber Bands, 12 Pack",
+    "item_b":"Chromcraft Coffee Table, Rectangular",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1176,
+    "confidence_b_to_a":0.5,
+    "lift":375.618
+  },
+  {
+    "item_a":"Chromcraft Coffee Table, Rectangular",
+    "item_b":"Ikea Stackable Bookrack, Mobile",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.5,
+    "confidence_b_to_a":0.1176,
+    "lift":375.618
+  },
+  {
+    "item_a":"Elite Scissors, Easy Grip",
+    "item_b":"Hoover Stove, Silver",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2,
+    "confidence_b_to_a":0.2857,
+    "lift":364.886
+  },
+  {
+    "item_a":"Belkin Flash Drive, Programmable",
+    "item_b":"Okidata Phone, Wireless",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.3333,
+    "lift":354.75
+  },
+  {
+    "item_a":"Hamilton Beach Stove, Black",
+    "item_b":"Panasonic Inkjet, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.3333,
+    "lift":327.462
+  },
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Memorex Flash Drive, USB",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.125,
+    "lift":319.275
+  },
+  {
+    "item_a":"Dania Floating Shelf Set, Pine",
+    "item_b":"Panasonic Printer, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2,
+    "confidence_b_to_a":0.25,
+    "lift":319.275
+  },
+  {
+    "item_a":"Breville Toaster, Black",
+    "item_b":"Motorola Office Telephone, with Caller ID",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.2222,
+    "lift":315.333
+  },
+  {
+    "item_a":"KI Adjustable-Height Table",
+    "item_b":"Toshiba IPT2010-SD IP\u00a0Telephone",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1429,
+    "confidence_b_to_a":0.3333,
+    "lift":304.071
+  },
+  {
+    "item_a":"Bevis Conference Table, Fully Assembled",
+    "item_b":"Harbour Creations Swivel Stool, Set of Two",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.4,
+    "confidence_b_to_a":0.1111,
+    "lift":283.8
+  },
+  {
+    "item_a":"Eldon Wave Desk Accessories",
+    "item_b":"Poly Designer Cover & Back",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.2857,
+    "lift":280.681
+  },
+  {
+    "item_a":"Cuisinart Microwave, White",
+    "item_b":"KitchenAid Blender, Black",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.1667,
+    "lift":266.062
+  },
+  {
+    "item_a":"Accos Staples, Metal",
+    "item_b":"Jiffy Interoffice Envelope, Security-Tint",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.25,
+    "lift":266.062
+  },
+  {
+    "item_a":"Memorex Mouse, Bluetooth",
+    "item_b":"Panasonic Inkjet, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.125,
+    "confidence_b_to_a":0.3333,
+    "lift":266.062
+  },
+  {
+    "item_a":"Hamilton Beach Stove, Red",
+    "item_b":"Hoover Microwave, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.1429,
+    "lift":260.633
+  },
+  {
+    "item_a":"Hamilton Beach Stove, Red",
+    "item_b":"Novimex Shipping Labels, Adjustable",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.1429,
+    "lift":260.633
+  },
+  {
+    "item_a":"Ames Interoffice Envelope, Set of 50",
+    "item_b":"Kraft Manila Envelope, with clear poly window",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.1538,
+    "lift":245.596
+  },
+  {
+    "item_a":"Breville Refrigerator, White",
+    "item_b":"Tenex Frame, Duo Pack",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1667,
+    "lift":236.5
+  },
+  {
+    "item_a":"Hamilton Beach Coffee Grinder, White",
+    "item_b":"Hewlett Ink, High-Speed",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1667,
+    "lift":236.5
+  },
+  {
+    "item_a":"Eaton Parchment Paper, Premium",
+    "item_b":"Hewlett Fax and Copier, High-Speed",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1538,
+    "lift":218.308
+  },
+  {
+    "item_a":"Barricks Computer Table, Fully Assembled",
+    "item_b":"Safco Floating Shelf Set, Mobile",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.1333,
+    "lift":212.85
+  },
+  {
+    "item_a":"Cisco Headset, VoIP",
+    "item_b":"Ikea Stackable Bookrack, Metal",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1429,
+    "lift":202.714
+  },
+  {
+    "item_a":"Epson Receipt Printer, Red",
+    "item_b":"Sanford Sketch Pad, Easy-Erase",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.3333,
+    "confidence_b_to_a":0.0952,
+    "lift":202.714
+  },
+  {
+    "item_a":"Breville Toaster, Black",
+    "item_b":"Sharp Fax Machine, Digital",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1429,
+    "lift":202.714
+  },
+  {
+    "item_a":"Motorola Office Telephone, with Caller ID",
+    "item_b":"Sharp Fax Machine, Digital",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1429,
+    "lift":202.714
+  },
+  {
+    "item_a":"Apple Audio Dock, VoIP",
+    "item_b":"Barricks Computer Table, Fully Assembled",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.125,
+    "confidence_b_to_a":0.25,
+    "lift":199.547
+  },
+  {
+    "item_a":"Ames Interoffice Envelope, Set of 50",
+    "item_b":"Novimex Steel Folding Chair, Adjustable",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.125,
+    "lift":199.547
+  },
+  {
+    "item_a":"Jiffy Mailers, Security-Tint",
+    "item_b":"KitchenAid Refrigerator, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1333,
+    "confidence_b_to_a":0.2222,
+    "lift":189.2
+  },
+  {
+    "item_a":"Fellowes Folders, Blue",
+    "item_b":"Hamilton Beach Stove, Red",
+    "orders_together":3,
+    "support":0.00023,
+    "confidence_a_to_b":0.1034,
+    "confidence_b_to_a":0.4286,
+    "lift":188.734
+  },
+  {
+    "item_a":"Jiffy Mailers, Set of 50",
+    "item_b":"Memorex Flash Drive, USB",
+    "orders_together":3,
+    "support":0.00023,
+    "confidence_a_to_b":0.2308,
+    "confidence_b_to_a":0.1875,
+    "lift":184.197
+  },
+  {
+    "item_a":"Bush Library with Doors, Pine",
+    "item_b":"Bush Library with Doors, Traditional",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.1,
+    "lift":182.443
+  },
+  {
+    "item_a":"Ames Peel and Seal, Set of 50",
+    "item_b":"StarTech Printer, Durable",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1,
+    "confidence_b_to_a":0.2857,
+    "lift":182.443
+  },
+  {
+    "item_a":"Bush Corner Shelving, Metal",
+    "item_b":"Tenex Frame, Black",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1818,
+    "lift":178.615
+  },
+  {
+    "item_a":"KitchenAid Blender, Black",
+    "item_b":"SanDisk Note Cards, 8.5 x 11",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.1667,
+    "lift":177.375
+  },
+  {
+    "item_a":"Hoover Microwave, Red",
+    "item_b":"Nokia Headset, Cordless",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.1111,
+    "lift":177.375
+  },
+  {
+    "item_a":"KitchenAid Stove, Black",
+    "item_b":"OIC Thumb Tacks, 12 Pack",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.125,
+    "lift":177.375
+  },
+  {
+    "item_a":"Breville Refrigerator, White",
+    "item_b":"Kraft Mailers, Security-Tint",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.125,
+    "lift":177.375
+  },
+  {
+    "item_a":"Hewlett Fax and Copier, Laser",
+    "item_b":"KitchenAid Stove, Black",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.125,
+    "confidence_b_to_a":0.2222,
+    "lift":177.375
+  },
+  {
+    "item_a":"Fiskars Box Cutter, Serrated",
+    "item_b":"Kleencut Box Cutter, Steel",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2,
+    "confidence_b_to_a":0.1333,
+    "lift":170.28
+  },
+  {
+    "item_a":"Canon Personal Copier, Color",
+    "item_b":"KitchenAid Stove, Black",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1176,
+    "confidence_b_to_a":0.2222,
+    "lift":166.941
+  },
+  {
+    "item_a":"Hamilton Beach Stove, Red",
+    "item_b":"Tenex Trays, Wire Frame",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2857,
+    "confidence_b_to_a":0.0909,
+    "lift":165.857
+  },
+  {
+    "item_a":"Cuisinart Microwave, Black",
+    "item_b":"Safco Stackable Bookrack, Traditional",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1818,
+    "confidence_b_to_a":0.1429,
+    "lift":165.857
+  },
+  {
+    "item_a":"Deflect-O Clock, Black",
+    "item_b":"Harbour Creations Bag Chairs, Set of Two",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.1538,
+    "lift":163.731
+  },
+  {
+    "item_a":"SAFCO Chairmat, Adjustable",
+    "item_b":"Sharp Ink, Digital",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.0769,
+    "confidence_b_to_a":0.3333,
+    "lift":163.731
+  },
+  {
+    "item_a":"Enermax Cards & Envelopes, 8.5 x 11",
+    "item_b":"Sharp Personal Copier, High-Speed",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1667,
+    "lift":163.731
+  },
+  {
+    "item_a":"Harbour Creations Shipping Labels, Laser Printer Compatible",
+    "item_b":"Ikea Library with Doors, Metal",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.1538,
+    "lift":163.731
+  },
+  {
+    "item_a":"Epson Calculator, Wireless",
+    "item_b":"Jiffy Mailers, with clear poly window",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1667,
+    "confidence_b_to_a":0.1538,
+    "lift":163.731
+  },
+  {
+    "item_a":"Jiffy Mailers, with clear poly window",
+    "item_b":"Stiletto Trimmer, High Speed",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1667,
+    "lift":163.731
+  },
+  {
+    "item_a":"Cisco Audio Dock, with Caller ID",
+    "item_b":"Ikea Corner Shelving, Pine",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.125,
+    "confidence_b_to_a":0.2,
+    "lift":159.638
+  },
+  {
+    "item_a":"Enermax Computer Printout Paper, Recycled",
+    "item_b":"Ikea Classic Bookcase, Metal",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.2222,
+    "confidence_b_to_a":0.1111,
+    "lift":157.667
+  },
+  {
+    "item_a":"Ames Mailers, Recycled",
+    "item_b":"KitchenAid Stove, Black",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1111,
+    "confidence_b_to_a":0.2222,
+    "lift":157.667
+  },
+  {
+    "item_a":"Brother Fax and Copier, Color",
+    "item_b":"SanDisk Message Books, Recycled",
+    "orders_together":3,
+    "support":0.00023,
+    "confidence_a_to_b":0.1429,
+    "confidence_b_to_a":0.25,
+    "lift":152.036
+  },
+  {
+    "item_a":"Belkin Keyboard, Programmable",
+    "item_b":"Novimex Executive Leather Armchair, Red",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.25,
+    "confidence_b_to_a":0.0952,
+    "lift":152.036
+  },
+  {
+    "item_a":"Binney & Smith Pens, Easy-Erase",
+    "item_b":"Konica Printer, Red",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.0952,
+    "confidence_b_to_a":0.25,
+    "lift":152.036
+  },
+  {
+    "item_a":"Hon Bag Chairs, Black",
+    "item_b":"Tenex Photo Frame, Duo Pack",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1538,
+    "lift":151.136
+  },
+  {
+    "item_a":"Avery Shipping Labels, Laser Printer Compatible",
+    "item_b":"Brother Fax Machine, Laser",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1538,
+    "lift":151.136
+  },
+  {
+    "item_a":"Jiffy Mailers, Set of 50",
+    "item_b":"Motorola Audio Dock, with Caller ID",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1538,
+    "lift":151.136
+  },
+  {
+    "item_a":"Jiffy Mailers, Set of 50",
+    "item_b":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1538,
+    "lift":151.136
+  },
+  {
+    "item_a":"Motorola Audio Dock, with Caller ID",
+    "item_b":"Sharp Personal Copier, Laser",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1538,
+    "confidence_b_to_a":0.1538,
+    "lift":151.136
+  },
+  {
+    "item_a":"Accos Rubber Bands, Metal",
+    "item_b":"KitchenAid Refrigerator, White",
+    "orders_together":2,
+    "support":0.00016,
+    "confidence_a_to_b":0.1053,
+    "confidence_b_to_a":0.2222,
+    "lift":149.368
+  }
+]

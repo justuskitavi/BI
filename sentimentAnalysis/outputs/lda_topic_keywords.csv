@@ -1,0 +1,97 @@
+topic_id,label,keyword,weight
+0,General Feedback,quality,0.2869
+0,General Feedback,satisfied,0.2869
+0,General Feedback,overall,0.1419
+0,General Feedback,experience,0.1419
+0,General Feedback,average,0.1419
+0,General Feedback,great,0.0
+0,General Feedback,delivery,0.0
+0,General Feedback,packaging,0.0
+0,General Feedback,product,0.0
+0,General Feedback,stopped,0.0
+0,General Feedback,neutral,0.0
+0,General Feedback,working,0.0
+1,"Pain Point [disappointed, poor]",delivery,0.2499
+1,"Pain Point [disappointed, poor]",packaging,0.2499
+1,"Pain Point [disappointed, poor]",late,0.2499
+1,"Pain Point [disappointed, poor]",poor,0.2499
+1,"Pain Point [disappointed, poor]",fast,0.0
+1,"Pain Point [disappointed, poor]",great,0.0
+1,"Pain Point [disappointed, poor]",quality,0.0
+1,"Pain Point [disappointed, poor]",disappointed,0.0
+1,"Pain Point [disappointed, poor]",stopped,0.0
+1,"Pain Point [disappointed, poor]",working,0.0
+1,"Pain Point [disappointed, poor]",neutral,0.0
+1,"Pain Point [disappointed, poor]",amazing,0.0
+2,Pain Point [disappointed],disappointed,0.2484
+2,Pain Point [disappointed],quality,0.2484
+2,Pain Point [disappointed],delivery,0.1257
+2,Pain Point [disappointed],product,0.1257
+2,Pain Point [disappointed],decent,0.1257
+2,Pain Point [disappointed],fine,0.1257
+2,Pain Point [disappointed],fast,0.0
+2,Pain Point [disappointed],great,0.0
+2,Pain Point [disappointed],stopped,0.0
+2,Pain Point [disappointed],working,0.0
+2,Pain Point [disappointed],neutral,0.0
+2,Pain Point [disappointed],amazing,0.0
+3,Competitor Pain [price],worth,0.1614
+3,Competitor Pain [price],price,0.1614
+3,Competitor Pain [price],customer,0.1481
+3,Competitor Pain [price],service,0.1481
+3,Competitor Pain [price],unhelpful,0.1481
+3,Competitor Pain [price],product,0.0776
+3,Competitor Pain [price],okay,0.0776
+3,Competitor Pain [price],special,0.0776
+3,Competitor Pain [price],stopped,0.0
+3,Competitor Pain [price],disappointed,0.0
+3,Competitor Pain [price],delivery,0.0
+3,Competitor Pain [price],quality,0.0
+4,Pain Point [disappointed],days,0.1975
+4,Pain Point [disappointed],product,0.1975
+4,Pain Point [disappointed],working,0.1975
+4,Pain Point [disappointed],stopped,0.1975
+4,Pain Point [disappointed],quality,0.1048
+4,Pain Point [disappointed],neutral,0.1048
+4,Pain Point [disappointed],fast,0.0
+4,Pain Point [disappointed],disappointed,0.0
+4,Pain Point [disappointed],great,0.0
+4,Pain Point [disappointed],packaging,0.0
+4,Pain Point [disappointed],delivery,0.0
+4,Pain Point [disappointed],amazing,0.0
+5,Pain Point [disappointed],experience,0.2499
+5,Pain Point [disappointed],highly,0.2499
+5,Pain Point [disappointed],recommend,0.2499
+5,Pain Point [disappointed],amazing,0.2499
+5,Pain Point [disappointed],disappointed,0.0
+5,Pain Point [disappointed],quality,0.0
+5,Pain Point [disappointed],delivery,0.0
+5,Pain Point [disappointed],fast,0.0
+5,Pain Point [disappointed],product,0.0
+5,Pain Point [disappointed],days,0.0
+5,Pain Point [disappointed],packaging,0.0
+5,Pain Point [disappointed],great,0.0
+6,General Feedback,great,0.2181
+6,General Feedback,money,0.2181
+6,General Feedback,value,0.2181
+6,General Feedback,better,0.1151
+6,General Feedback,works,0.1151
+6,General Feedback,fine,0.1151
+6,General Feedback,fast,0.0
+6,General Feedback,packaging,0.0
+6,General Feedback,product,0.0
+6,General Feedback,stopped,0.0
+6,General Feedback,neutral,0.0
+6,General Feedback,working,0.0
+7,General Feedback,product,0.1258
+7,General Feedback,expectations,0.1258
+7,General Feedback,excellent,0.1258
+7,General Feedback,exceeded,0.1258
+7,General Feedback,packaging,0.1241
+7,General Feedback,fast,0.1241
+7,General Feedback,great,0.1241
+7,General Feedback,delivery,0.1241
+7,General Feedback,stopped,0.0
+7,General Feedback,working,0.0
+7,General Feedback,neutral,0.0
+7,General Feedback,amazing,0.0

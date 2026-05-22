@@ -1,0 +1,50 @@
+[
+  {
+    "cluster":0,
+    "customers":253,
+    "avg_recency_days":21.767,
+    "avg_orders":34.522,
+    "total_sales":5417996,
+    "total_profit":769847.594,
+    "avg_profit_margin":0.142,
+    "avg_discount":0.126,
+    "avg_order_value":625.899,
+    "business_label":"Loyal active high-frequency customers"
+  },
+  {
+    "cluster":1,
+    "customers":211,
+    "avg_recency_days":27.863,
+    "avg_orders":27.227,
+    "total_sales":2419521,
+    "total_profit":362246.385,
+    "avg_profit_margin":0.148,
+    "avg_discount":0.131,
+    "avg_order_value":425.486,
+    "business_label":"Loyal active high-frequency customers"
+  },
+  {
+    "cluster":2,
+    "customers":264,
+    "avg_recency_days":19.614,
+    "avg_orders":35.027,
+    "total_sales":3860274,
+    "total_profit":402440.784,
+    "avg_profit_margin":0.104,
+    "avg_discount":0.155,
+    "avg_order_value":420.586,
+    "business_label":"Loyal active high-frequency customers"
+  },
+  {
+    "cluster":3,
+    "customers":67,
+    "avg_recency_days":30.06,
+    "avg_orders":30.254,
+    "total_sales":945114,
+    "total_profit":-65499.942,
+    "avg_profit_margin":-0.074,
+    "avg_discount":0.195,
+    "avg_order_value":465.823,
+    "business_label":"Loss-making \/ discount-sensitive customers"
+  }
+]
